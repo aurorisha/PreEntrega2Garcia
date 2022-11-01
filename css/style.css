@@ -139,7 +139,7 @@ h3 h4 h5 h6 {
 /* BODY INTRO BANNER */
 
 #intro__section {
-    background-image: url("/img/banner_indexV2.jpg");
+    background-image: url("/img/banderindexv2.jpg");
     padding: 10rem 0 4rem 0;
     text-align: center;
 }
@@ -480,7 +480,6 @@ td {
     }
 
     #intro__section {
-        background-image: url("/img/banner_indexV2.jpg");
         padding: 6rem 0 3rem 0;
         text-align: center;
         width: auto;
@@ -725,7 +724,6 @@ td {
     }
 
     #intro__section {
-        background-image: url("/img/banner_indexV2.jpg");
         padding: 7rem 0 3rem 0;
         text-align: center;
         width: auto;
