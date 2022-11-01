@@ -139,7 +139,7 @@ h3 h4 h5 h6 {
 /* BODY INTRO BANNER */
 
 #intro__section {
-    background-image: url("img/banderindexv2.jpg");
+    background-image: url("/img/banderindexv2.jpg");
     padding: 10rem 0 4rem 0;
     text-align: center;
 }
