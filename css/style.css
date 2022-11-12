@@ -30,6 +30,7 @@ header {
     top: 0px;
     background: var(--principal2);
     text-decoration: none;
+    z-index: 1;
 }
 
 img, svg {
@@ -544,11 +545,15 @@ td {
     .main-menu { 
         display: flex;
         flex-flow: row nowrap;
-        font-size: calc(100% - 40%);
+        font-size: calc(100% - 45%);
+    }
+
+    .main-menu ul { 
+        padding: 7px;
     }
 
     .main-menu ul li a { 
-        padding: 7px;
+        padding: 8px;
     }
 
     
@@ -777,6 +782,10 @@ td {
     
     .main-menu { 
         font-size: calc(100% - 20%);
+    }
+
+    .main-menu ul { 
+        padding: 7px;
     }
 
     .main-menu ul li a { 
