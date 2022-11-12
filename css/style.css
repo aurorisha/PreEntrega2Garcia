@@ -24,6 +24,7 @@ body {
 }
 
 header { 
+    font-family: 'Catamaran', sans-serif;
     width: 100%;
     position: fixed;
     top: 0px;
@@ -41,16 +42,35 @@ img {
 
 h1 { 
     font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
 }
 
 h2 {
     font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
 }
 
-h3 h4 h5 h6 {
+h3 {
     font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
 }
 
+h4 h5 h6 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 400;
+}
 
 .boton {
     background-color:var(--botones);
@@ -114,6 +134,7 @@ h3 h4 h5 h6 {
 
     .main-menu ul {
         list-style: none;
+        margin-bottom: 0;
         
     }
 
@@ -390,6 +411,23 @@ td {
     padding: 1rem;
 }
 
+/* Mi cuenta */
+
+#seccion-usuario {
+    height: auto;
+    max-height: 1200px;
+}
+
+#usuario-card {
+    background-color: var(--principal3);
+}
+
+#btn-usuario {
+    padding: 0;
+    background-color: var(--botones);
+    border: 0;
+}
+
 /* FOOOTER */
 
 .footer {
@@ -457,8 +495,9 @@ td {
     background-color: var(--btnhoover);
 }
 
+
 #servicios {
-    background-color: #ff7ba7;
+    background-color: var(--aux3);
     height: auto;
 }
 
@@ -617,6 +656,17 @@ td {
     font-size: calc(100% - 20%);
 }
 
+/* Tienda */
+
+.intro-tienda {
+    width: 80%;
+    max-width: 1270px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .colresponsive {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -753,7 +803,7 @@ td {
     }
     
     
-    .col-4 {
+    .centro-tienda {
         width: 100%;
         margin: auto;
         display: flex;
