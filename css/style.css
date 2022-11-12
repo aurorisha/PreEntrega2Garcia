@@ -221,8 +221,14 @@ td {
 
 /* BODY INTRO SERVICIOS */
 
-#intro-servicios {
-    padding: 1rem 0 1rem 0;
+#servicios{
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.row {
+    height: auto;
 }
 
 
@@ -241,6 +247,7 @@ td {
     background-color: var(--principal3);
     padding: 2rem 1rem;
     text-align: center;
+    height: 100%;
 }
 
 .video-box {
@@ -356,6 +363,10 @@ td {
     padding: 1rem 0rem;
 }
 
+.table {
+    display: block;
+}
+
 /* FOOOTER */
 
 .footer {
@@ -426,7 +437,6 @@ td {
 #servicios {
     background-color: #ff7ba7;
     height: auto;
-    width: 100%;
 }
 
 .row {
@@ -479,13 +489,6 @@ td {
         padding: 7px;
     }
 
-    #intro__section {
-        padding: 6rem 0 3rem 0;
-        text-align: center;
-        width: auto;
-    }
-    
-
     
     .display__intro h1{
         text-transform: uppercase;
@@ -529,22 +532,6 @@ td {
         color: #ffffff;
     }
     
-
-    
-#intro-servicios {
-    padding: 0;
-}
-
-#servicios{
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-}
-
-.row {
-    height: auto;
-}
-
 
 .text-box {
     width:100%;
