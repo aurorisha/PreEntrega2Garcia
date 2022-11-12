@@ -4,6 +4,7 @@
     --principal3: #ffe4e1;
     --aux1: #f9e3ec;
     --aux2: #cd5c5c;
+    --aux3:#fff2f1;
     --botones: #f54275;
     --btnhoover: #ff7ba7;
     --btnwhite: #ffffff;
@@ -365,6 +366,28 @@ td {
 
 .table {
     display: block;
+}
+
+/* Contacto */
+
+#grid-sucu{
+    background-color: var(--aux3);
+}
+
+#datos-sucu {
+    background-color: var(--principal2);
+    padding: 1rem;
+    font-weight: 600;
+}
+
+#datos-sucu h3{
+    font-weight: 800;
+}
+
+#card-contacto {
+    border: solid 2px var(--principal2);
+    background-color: white;
+    padding: 1rem;
 }
 
 /* FOOOTER */

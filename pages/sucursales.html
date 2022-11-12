@@ -12,9 +12,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;600;800&display=swap" rel="stylesheet">
         <!-- Fontawesome -->
         <script src="https://kit.fontawesome.com/cafaecdf6c.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!--  -->
         <!-- Hoja de CSS -->
-        <link rel="stylesheet" href="../css/style.css">
         <!-- termina hoja de CSS -->
+        <link rel="stylesheet" href="../css/style.css">
         <title>Sucursales</title>
     </head>
 <body>
@@ -35,20 +37,94 @@
         </div>
         </nav>
     </header><!-- Cierre barra de navegacion -->
+
     <main>
-        <section id="intro__section"><!-- Inicio Banner principal -->
+<!-- Inicio Banner principal -->
+        <section id="intro__section">
             <div class="display__intro">
                 <h1>Sucursales</h1>
                 <p>¡Un mundo magico cerca de ti!</p>        
             </div>
-        </section><!-- Cierre banner principal -->
-        <div class="col-4">
+        </section>
+<!-- Cierre banner principal -->
+        <!-- <div class="col-4">
             <img src="../img/bannersucursales.jpg" alt="banner" class="con-img">        
-        </div>    
-        <section id="mapa"><!-- Inicio Ubicacion -->
+        </div> --> 
+<!--Inicio Contenido Sucursales -->   
+        <div class="container-fluid text-center pt-3 pb-3" id="grid-sucu">
+            <div class="row justify-content-center" id="grid-sucu-row">
+<!-- Espacio de datos -->
+                    <div class="col-sm-10 col-md-5 col-lg-3 mt-3 mb-3 ms-3 me-3" id="datos-sucu">
+                        <div class="col-12" id="sucursal1">
+                            <h3>Sucursal 1</h3>
+                            <p>Direccion: Calle falsa 123 <br> Col. Hipotetica, En ningun lugar, MX</p>
+                            <p>Tel. (81) 8136 0389</p>
+                        </div>
+                        <div class="col-12" id="sucursal2">
+                            <h3>Sucursal 2</h3>
+                            <p>Direccion: Calle falsa 123 <br>Col. Hipotetica, En ningun lugar, MX</p>
+                            <p>Tel. (81) 8136 0389</p>
+                        </div>
+                    </div>
+<!-- Espacio del formulario -->
+                    <div class="col-sm-10 col-md-5 col-lg-5 mt-3 mb-3 ms-3 me-3" id="card-contacto">
+                        <!-- Conjunto de formulario -->
+                        <h3>Estamos a tus ordenes</h3>
+                        <div class="mb-md-0 mb-4">
+                            <!-- Formulario -->
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                <!--1era fila-->
+                                <div class="row">
+                                    <!--Ingresar Nombre-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="name" name="name" class="form-control">
+                                            <label for="name" class="">Nombre</label>
+                                        </div>
+                                    </div>
+                                    <!--Ingresar correo-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="email" name="email" class="form-control">
+                                            <label for="email" class="">Correo</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--2nda Fila -->
+                                <div class="row">
+                                    <!-- Ingresa asunto -->
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Asunto</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--3era fila-->
+                                <div class="row">
+                                    <!--Ingresa mensaje-->
+                                    <div class="col-md-12">
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                            <label for="message">Escribe tu mensaje</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="col-12 mt-4 mb-4">
+                                <a href="../pages/micuenta.html" class="boton">Enviar</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+<!-- Termino Conteniod sucursales -->
+<!-- Inicio Ubicacion -->
+        <section id="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1648.8278727850666!2d-100.31349025448411!3d25.66734668921279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bf4d52f3d2d1%3A0x2c97145ed34ded60!2sPlaza%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1656044367858!5m2!1ses-419!2smx" width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section><!-- Termino Ubicacion -->  
     </main>
+
     <footer class="footer"><!-- Inicia Footer -->
         <!-- <a href="/Index.html">Logo</a> -->
         <div class="footer__superior">
