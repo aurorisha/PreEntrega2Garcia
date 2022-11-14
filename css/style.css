@@ -640,6 +640,12 @@ td {
     font-size: 0.8rem;
     line-height: 0.8rem;
   }
+  p {
+    font-size: 0.8rem;
+  }
+  #intro__section {
+    padding: 6rem 0 3rem 0;
+  }
   .nav__container {
     width: 100%;
     height: 80px;
@@ -727,13 +733,6 @@ td {
     width: 100%;
     height: 270px;
   }
-  .boton {
-    padding: 15px 32px;
-    font-size: 0.8rem;
-    border-radius: 8px;
-    margin-top: 1rem;
-    align-content: center;
-  }
   .btn {
     padding: 1.5rem 0 0 0;
   }
@@ -791,6 +790,15 @@ td {
   .boton-shop {
     padding: 8px 14px;
   }
+  #titulocall h3 {
+    font-size: 1.3rem;
+  }
+  #datos-sucu h3 {
+    font-size: 1.3rem;
+  }
+  #card-contacto h3 {
+    font-size: 1.3rem;
+  }
   /*  */
   .footer {
     width: 100%;
@@ -818,19 +826,22 @@ td {
     width: 40px;
     height: 40px;
   }
+  .foot__container h3 {
+    font-size: 1.3rem;
+  }
 }
 /* Breakpoint medium
  */
 @media screen and (min-width: 600px) and (max-width: 950px) {
   h1, h2, h3, h4 h5 h6 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
   }
   h3 h4 h5 h6 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1rem;
   }
   .nav__logo {
@@ -852,12 +863,15 @@ td {
   }
   .display__intro h1, .display__intro h2, .display__intro h3, .display__intro h4 h5 h6, h4 h5 .display__intro h6 {
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3rem;
   }
   .display__intro p {
     font-weight: 400;
     font-size: 1.5rem;
+  }
+  .col-4 {
+    flex-direction: column;
   }
   .centro-tienda {
     width: 100%;
@@ -879,6 +893,7 @@ td {
     text-align: center;
     background-color: var(--aux2);
     color: #ffffff;
+    margin: 1rem auto;
   }
   #intro-servicios {
     padding: 0;
@@ -901,7 +916,7 @@ td {
     align-items: center;
   }
   .video-box {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -920,13 +935,6 @@ td {
   #mapa iframe {
     width: 100%;
     height: 270px;
-  }
-  .boton {
-    padding: 15px 32px;
-    font-size: 0.8rem;
-    border-radius: 8px;
-    margin-top: 1rem;
-    align-content: center;
   }
   .btn {
     padding: 1.5rem 0 0 0;
@@ -1005,7 +1013,7 @@ td {
   }
 }
 /* Breakpoint lg */
-@media screen and (min-width: 950px) and (max-width: 1270px) {
+@media screen and (min-width: 950px) and (max-width: 1200px) {
   .main-menu ul li a {
     padding: 10px;
   }
@@ -1056,11 +1064,6 @@ td {
   .video-box iframe {
     width: auto;
     height: auto;
-  }
-  .boton {
-    padding: 10px 32px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
   }
   .btn {
     padding: 1.5rem 0 0.5rem 0;
