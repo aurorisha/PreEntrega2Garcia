@@ -1,0 +1,48 @@
+
+.btncute__sm {
+    @include boton_cute(var(--botones), var(--btnwhite), "sm");
+}
+
+.btncute__sm:hover {
+    @include boton_cute(var(--btnhover), var(--principal1), "sm");
+}
+
+.btncute__md {
+    @include boton_cute (var(--botones), var(--btnwhite), "md");
+}
+
+.btncute__md:hover {
+    @include boton_cute(var(--btnhover), var(--principal1), "md");
+}
+
+.btncute__lg {
+    @include boton_cute (var(--botones), var(--btnwhite), "lg");
+}
+
+.btncute__lg:hover {
+    @include boton_cute(var(--btnhover), var(--principal1), "lg");
+}
+
+.abtncute__sm {
+    @include divboton_cute(var(--botones), var(--btnwhite), "sm");
+}
+
+.abtncute__sm:hover {
+    @include divboton_cute(var(--btnhover), var(--principal1), "sm");
+}
+
+.abtncute__md {
+    @include divboton_cute(var(--botones), var(--btnwhite), "md");
+}
+
+.abtncute__md:hover {
+    @include divboton_cute(var(--btnhover), var(--principal1), "md");
+}
+
+.abtncute__lg {
+    @include divboton_cute(var(--botones), var(--btnwhite), "lg");
+}
+
+.abtncute__:hover {
+    @include divboton_cute(var(--btnhover), var(--principal1), "md");
+}
